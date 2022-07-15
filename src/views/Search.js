@@ -1,4 +1,5 @@
 import React from "react";
+import "../index.css"
 
 
 function Search({ inputWord }) {
@@ -8,7 +9,7 @@ function Search({ inputWord }) {
 
   return (
     <div>
-      <input
+      <input  className="in"
         type="text"
         id="header-search.."
         placeholder="Please Search Here"

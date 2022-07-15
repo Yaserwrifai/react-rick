@@ -3,6 +3,8 @@ import React, {useEffect, useState} from 'react'
 import {Cards} from '../Card';
 // import CharModal from './CharModal';
 import Search from "./Search";
+import "../views/Char.css";
+
 
 
 
@@ -80,8 +82,9 @@ useEffect(() => {
     return (
         <>
             <Search inputWord={inputWord}/>
-            <button onClick={goNext}> Next</button>
-            <button onClick={goPrev}> Prev</button>
+            <button   onClick={goPrev}> Prev</button>
+             <button onClick={goNext}> Next</button>
+          
 
             <div className="row">
                 {
