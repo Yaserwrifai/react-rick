@@ -3,7 +3,7 @@ import React, {useEffect, useState} from 'react'
 import {Cards} from '../Card';
 // import CharModal from './CharModal';
 import Search from "./Search";
-import "../views/Char.css";
+
 
 
 
